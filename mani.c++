@@ -1,4 +1,5 @@
-	int largest = a[0];
+	
+  int largest = a[0];
     int slargest = -1;
 
     for(int i=0; i< n;i++){
@@ -33,3 +34,4 @@ vector<int> getSecondOrderElements(int n, vector<int> a) {
    int ssmallest = secondSmallest(a, n);
 
    return {slargest, ssmallest};
+}
